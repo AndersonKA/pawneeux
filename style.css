@@ -24,12 +24,17 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  margin-top: 3rem;
+}
+
 .indent {
   padding-left: 2rem;
 }
 
 .disclaimer {
   font-size: 0.75rem;
+  margin-top: 5rem;
 }
 
 @media screen and (max-width: 850px) {
