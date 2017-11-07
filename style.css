@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background: #EEEEEE;
+  font-family: 'Raleway', sans-serif;
+}
+
+.section {
+  margin: 0 6rem;
+  padding: 2rem 4rem;
+  background: #ffffff;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
