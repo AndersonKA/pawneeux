@@ -4,6 +4,10 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+img {
+  max-width: 500px;
+}
+
 .section {
   margin: 0 6rem;
   padding: 2rem 4rem;
@@ -14,4 +18,32 @@ body {
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.indent {
+  padding-left: 2rem;
+}
+
+.disclaimer {
+  font-size: 0.75rem;
+}
+
+@media screen and (max-width: 850px) {
+    img {
+      max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+  img {
+    max-width: 150px;
+  }
+
+  .section {
+    margin: 0;
+  }
 }
